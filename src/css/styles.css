@@ -147,9 +147,30 @@ main {
   background-color:hotpink;
   color: #fff
 }
+.container .profile-data .repositories ul li a ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 
+.repositories ul li a ul li {
+  background-color: violet;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid grey;
+  transition: 0.3s ease-in-out;
+}
+
+.repositories ul li a ul li:hover {
+  scale: 1.1;
+}
 .container .profile-data.hide{
   display: none;
+}
+
+.repos-name{
+  font-weight: bold;
 }
 
 @media (max-width: 1280px) {
