@@ -150,6 +150,8 @@ main {
 .container .profile-data .repositories ul li a ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -195,6 +197,13 @@ main {
   .container header #btn-search
   {
     width: 100%;
+  }
+}
+
+@media (max-width: 435px) {
+  .repositories ul li a ul li {
+    background-color: red;
+    margin: 4px;
   }
 }
 
