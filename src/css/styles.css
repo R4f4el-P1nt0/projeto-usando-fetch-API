@@ -173,6 +173,7 @@ main {
 
 .repos-name{
   font-weight: bold;
+  display: inline-block;
 }
 
 @media (max-width: 1280px) {
