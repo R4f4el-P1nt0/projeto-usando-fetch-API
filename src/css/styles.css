@@ -202,7 +202,6 @@ main {
 
 @media (max-width: 435px) {
   .repositories ul li a ul li {
-    background-color: red;
     margin: 4px;
   }
 }
