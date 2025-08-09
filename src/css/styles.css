@@ -172,13 +172,6 @@ main {
   display: none;
 }
 
-.events.section li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-}
-
 .repos-name {
   font-weight: bold;
 }
@@ -211,6 +204,10 @@ main {
 @media (max-width: 569px) {
   .container .profile-data .repositories ul li a ul li {
     margin: 4px;
+  }
+
+  .events.section li {
+    margin-bottom: 5px;
   }
 }
 
