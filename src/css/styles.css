@@ -167,13 +167,20 @@ main {
 .repositories ul li a ul li:hover {
   scale: 1.1;
 }
+
 .container .profile-data.hide{
   display: none;
 }
 
-.repos-name{
+.events.section li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.repos-name {
   font-weight: bold;
-  display: inline-block;
 }
 
 @media (max-width: 1280px) {
@@ -201,8 +208,8 @@ main {
   }
 }
 
-@media (max-width: 435px) {
-  .repositories ul li a ul li {
+@media (max-width: 569px) {
+  .container .profile-data .repositories ul li a ul li {
     margin: 4px;
   }
 }
